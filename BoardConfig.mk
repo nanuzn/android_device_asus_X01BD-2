@@ -197,6 +197,9 @@ TARGET_PLATFORM_DEVICE_BASE := /devices/soc.0/
 # HWUI
 HWUI_COMPILE_FOR_PERF := true
 
+# Lineage Hardware
+JAVA_SOURCE_OVERLAYS := org.lineageos.hardware|$(DEVICE_PATH)/lineagehw|**/*.java
+
 # Media
 TARGET_USES_MEDIA_EXTENSIONS := true
 
