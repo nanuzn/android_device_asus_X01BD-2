@@ -223,13 +223,18 @@ TARGET_USES_MKE2FS := true
 PRODUCT_VENDOR_MOVE_ENABLED := true
 TARGET_COPY_OUT_VENDOR := vendor
 PRODUCT_FULL_TREBLE_OVERRIDE := true
+
+BOARD_ROOT_EXTRA_SYMLINKS := \
+    /mnt/vendor/persist:/persist \
+    /vendor/bt_firmware:/bt_firmware \
+    /vendor/dsp:/dsp \
+    /vendor/firmware_mnt:/firmware
+
+# Properties
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 
 # Power
 TARGET_USES_INTERACTION_BOOST := true
-
-# Peripheral manager
-TARGET_PER_MGR_ENABLED := true
 
 # Peripheral manager
 TARGET_PER_MGR_ENABLED := true
