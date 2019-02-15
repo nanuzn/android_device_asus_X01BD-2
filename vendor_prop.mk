@@ -111,9 +111,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
-# FUSE
+# Google Apps
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.fuse_sdcard=true
+	ro.opa.eligible_device=true
 
 # GMS
 PRODUCT_PROPERTY_OVERRIDES += \

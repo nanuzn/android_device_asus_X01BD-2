@@ -174,6 +174,10 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-service \
     android.hardware.drm@1.1-service.clearkey
 
+# Fix Dialer
+PRODUCT_COPY_FILES +=  \
+    $(LOCAL_PATH)/configs/sysconfig/dialer_experience.xml:system/etc/sysconfig/dialer_experience.xml
+
 # FM
 PRODUCT_PACKAGES += \
     FM2 \
@@ -181,7 +185,15 @@ PRODUCT_PACKAGES += \
     qcom.fmradio \
     android.hardware.broadcastradio@1.0-impl
 
-# Doze mode
+# Google Apps
+PRODUCT_PACKAGES += \
+    GClocks \
+    GContacts \
+    GDialer \
+    GMessaging \
+    Gallery2
+
+# Doze Mode
 PRODUCT_PACKAGES += \
     AsusDoze
 
