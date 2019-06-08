@@ -55,7 +55,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.camera.eis.enable=1 \
+    persist.vendor.camera.eis.enable=1 \
+    persist.vendor.camera.ois.disable=1 \
     persist.vendor.camera.is_type=4 \
     persist.vendor.camera.HAL3.enabled=1 \
     persist.vendor.camera.preview.ubwc=0 \
@@ -196,7 +197,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.data.iwlan.enable=true \
     persist.vendor.radio.atfwd.start=true \
     persist.radio.multisim.config=dsds \
-    persist.radio.VT_CAM_INTERFACE=1 \
     persist.radio.VT_CAM_INTERFACE=2 \
     persist.vendor.qti.telephony.vt_cam_interface=1 \
     persist.vendor.radio.apm_sim_not_pwdn=1 \
