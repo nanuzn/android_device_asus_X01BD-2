@@ -193,10 +193,7 @@ on boot
     chmod 660 /sys/class/leds/red/start_idx
     chmod 660 /sys/class/leds/green/start_idx
 
-#Create folder dump yuv images while debugging
-    mkdir /data/vendor/camera 0770 camera camera
-
-#USB controller configuration
+    #USB controller configuration
     setprop vendor.usb.rndis.func.name "rndis_bam"
     setprop vendor.usb.rmnet.func.name "rmnet_bam"
     setprop vendor.usb.rmnet.inst.name "rmnet"

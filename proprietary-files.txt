@@ -53,12 +53,37 @@ vendor/etc/acdbdata/QRD/NonCE/QRD_NonCE_Handset_cal.acdb
 # Audio firmware
 vendor/firmware/tfa98xx.cnt
 
+# Camera - from - UL-ASUS_X01BD-WW-15.2016.1902.192 OTA
+vendor/lib/hw/camera.sdm660.so|a19d15afd88a7b80c2946d07859e57572b3aa448
+vendor/lib/libdualcameraddm.so|ee957225465a396b3e7c9bcf4c0728ba93c246a8
+vendor/lib/libarcsoft_dualcam_refocus.so|c6d901738ca123a4e2fc8cf66acde114cc5bc105
+vendor/lib/libmm-qcamera.so|0f1c44136dd6df7f6878d1c29351b9f7a58d59b5
+vendor/lib/libmmcamera_bokeh.so|390714e0018c183db873b4be4c8fc00a8fe3b02c
+vendor/lib/libmmcamera_pdaf.so|5fba6196eb6d8cdc033df066c69130bdb4f02504
+vendor/lib/libmmcamera_tintless_algo.so|5b79fd80607e9e5ecf74ca49532e86f014558318
+vendor/lib/libmmcamera_hvx_grid_sum.so|77949ffd9056044a9c9520183a40e74486b7d345
+vendor/lib/libmmcamera2_cpp_module.so|84f63d3cf0b3f6f30c1b948928ab97310e98ca0f
+vendor/lib/libmmcamera_arcsoftbokeh_lib.so|7c79c3dc533f09a5a3c4e1a81120aff4e983837d
+vendor/lib/libmmcamera2_imglib_modules.so|8a17bf8f3293f261495777719d755c27dbcaf39f
+vendor/lib/libmmcamera2_stats_modules.so|b09f5a80a3c8cb73e5d9037ec0f2ddbf9051fff2
+vendor/lib/libmmcamera_interface.so|09f61a3b13b47fd6f6135cef6a3084e07c23fbc8
+vendor/lib/libmmcamera_pdafcamif.so|ca633e52b298eb9540a31dde86cbdc31aa8d13d1
+vendor/lib/libmmcamera2_pproc_modules.so|8e9d4aa9292d103027f6e2e8229386111025b7f8
+vendor/lib/libmmcamera2_sensor_modules.so|d38ef75dd1f166577c230c8cde00d3807851a57c
+vendor/lib/libmmcamera_tintless_bg_pca_algo.so|8949343fe50e00f1511c1da8cd7523009e01bf54
+vendor/lib/libmmcamera2_c2d_module.so|14fb9fea0e730f509c8b59a64b55c6a3313966bf
+vendor/lib/libmmcamera2_mct.so|3474393a1a69fa4fee150ea3ebdada9be79bd49a
+vendor/lib/libmmcamera_isp_mesh_rolloff44.so|8b4264a4ec75fe02c30793c85aa223e728700120
+vendor/lib/libmmcamera_dbg.so|edac24d4f8ab24e8b2f77b8fb8bff1f4587ea214
+vendor/lib/libmmcamera2_iface_modules.so|9e7a4688ddec9bc878b7d83ee1d403381ac7c4cc
+vendor/lib/libmmcamera_imglib.so|ae5be66d54925fff945b6fc9b89840e14a91aecf
+vendor/lib/libmmcamera2_stats_algorithm.so|d5d7b73a9b5a28b16bb20b64ea76e1c0ce45009b
+vendor/lib/libmmcamera2_q3a_core.so|d64df81edbce24680bb15cc4cb696fb20599fc43
+
 # Camera
-vendor/lib/hw/camera.sdm660.so
 vendor/lib/libarcsoft_arc3dnr_intf.so
 vendor/lib/libarcsoft_arcshdr_intf.so
 vendor/lib/libarcsoft_beautyshot.so
-vendor/lib/libarcsoft_dualcam_refocus.so
 vendor/lib/libarcsoft_picselfie_algorithm.so
 vendor/lib/libcdsprpc.so
 vendor/lib/libdepthmapwrapper.so
@@ -67,30 +92,16 @@ vendor/lib/libhal_dbg.so
 vendor/lib/libjpegdhw.so
 vendor/lib/libjpegdmahw.so
 vendor/lib/libjpegehw.so
-vendor/lib/libmm-qcamera.so
-vendor/lib/libmmcamera2_c2d_module.so
-vendor/lib/libmmcamera2_cpp_module.so
 vendor/lib/libmmcamera2_frame_algorithm.so
-vendor/lib/libmmcamera2_iface_modules.so
-vendor/lib/libmmcamera2_imglib_modules.so
 vendor/lib/libmmcamera2_isp_modules.so
 vendor/lib/libmmcamera2_is.so
 vendor/lib/libmmcamera2_mct_shimlayer.so
-vendor/lib/libmmcamera2_mct.so
 vendor/lib/libmmcamera2_pp_buf_mgr.so
-vendor/lib/libmmcamera2_pproc_modules.so
-vendor/lib/libmmcamera2_q3a_core.so
-vendor/lib/libmmcamera2_sensor_modules.so
-vendor/lib/libmmcamera2_stats_algorithm.so
 vendor/lib/libmmcamera2_stats_lib.so
-vendor/lib/libmmcamera2_stats_modules.so
 vendor/lib/libmmcamera_ar1337.so
 vendor/lib/libmmcamera_ar1337_eeprom.so
 vendor/lib/libmmcamera_atmel_at24c32e_eeprom.so
-vendor/lib/libmmcamera_arcsoftbokeh_lib.so
-vendor/lib/libmmcamera_bokeh.so
 vendor/lib/libmmcamera_csidtg.so
-vendor/lib/libmmcamera_dbg.so
 vendor/lib/libmmcamera_depth_map.so
 vendor/lib/libmmcamera_dummyalgo.so
 vendor/lib/libmmcamera_dw9761b_2d_eeprom.so
@@ -117,9 +128,7 @@ vendor/lib/libmmcamera_hi846_kingcome_front.so
 vendor/lib/libmmcamera_hi846_tsp_front.so
 vendor/lib/libmmcamera_hi846_tsp_front_eeprom.so
 vendor/lib/libmmcamera_hvx_add_constant.so
-vendor/lib/libmmcamera_hvx_grid_sum.so
 vendor/lib/libmmcamera_imglib_faceproc_adspstub.so
-vendor/lib/libmmcamera_imglib.so
 vendor/lib/libmmcamera_imx214.so
 vendor/lib/libmmcamera_imx230.so
 vendor/lib/libmmcamera_imx258.so
@@ -137,7 +146,6 @@ vendor/lib/libmmcamera_imx486_eeprom.so
 vendor/lib/libmmcamera_imx486_qtech_eeprom.so
 vendor/lib/libmmcamera_imx486_qtech.so
 vendor/lib/libmmcamera_imx486.so
-vendor/lib/libmmcamera_interface.so
 vendor/lib/libmmcamera_irs1645.so
 vendor/lib/libmmcamera_le2464c_eeprom.so
 vendor/lib/libmmcamera_le2464c_master_eeprom.so
@@ -184,8 +192,6 @@ vendor/lib/libmmcamera_ov8856b_chicony_front.so
 vendor/lib/libmmcamera_ov8858.so
 vendor/lib/libmmcamera_ov8865.so
 vendor/lib/libmmcamera_paaf_lib.so
-vendor/lib/libmmcamera_pdafcamif.so
-vendor/lib/libmmcamera_pdaf.so
 vendor/lib/libmmcamera_ppbase_module.so
 vendor/lib/libmmcamera_ppeiscore.so
 vendor/lib/libmmcamera_quadracfa.so
@@ -221,8 +227,6 @@ vendor/lib/libmmcamera_sunny_q5v41b_eeprom.so
 vendor/lib/libmmcamera_truly_cma481_eeprom.so
 vendor/lib/libmmcamera_truly_cmb433_eeprom.so
 vendor/lib/libmmcamera_thread_services.so
-vendor/lib/libmmcamera_tintless_algo.so
-vendor/lib/libmmcamera_tintless_bg_pca_algo.so
 vendor/lib/libmmcamera_tuning_lookup.so
 vendor/lib/libmmcamera_tuning.so
 vendor/lib/libmmjpeg.so
@@ -2037,7 +2041,6 @@ vendor/lib/libmmcamera_isp_linearization40.so
 vendor/lib/libmmcamera_isp_ltm47.so
 vendor/lib/libmmcamera_isp_luma_adaptation40.so
 vendor/lib/libmmcamera_isp_mce40.so
-vendor/lib/libmmcamera_isp_mesh_rolloff44.so
 vendor/lib/libmmcamera_isp_pdaf48.so
 vendor/lib/libmmcamera_isp_pedestal_correct46.so
 vendor/lib/libmmcamera_isp_rs_stats46.so
