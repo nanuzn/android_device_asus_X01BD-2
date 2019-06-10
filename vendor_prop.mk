@@ -61,8 +61,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.camera.HAL3.enabled=1 \
     persist.camera.preview.ubwc=0 \
     persist.ts.rtmakeup=1 \
-    persist.camera.expose.aux=1 \
-    vendor.camera.aux.packagelist=org.codeaurora.snapcam
+    camera.hal1.packagelist=com.whatsapp,com.facebook.katana,com.instagram.android,com.snapchat.android,com.gbwhatsapp
 
 # Charging maximum voltage
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -197,6 +196,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.data.iwlan.enable=true \
     persist.vendor.radio.atfwd.start=true \
     persist.radio.multisim.config=dsds \
+    persist.radio.VT_CAM_INTERFACE=1 \
     persist.radio.VT_CAM_INTERFACE=2 \
     persist.vendor.qti.telephony.vt_cam_interface=1 \
     persist.vendor.radio.apm_sim_not_pwdn=1 \
