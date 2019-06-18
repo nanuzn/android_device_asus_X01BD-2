@@ -70,7 +70,6 @@ vendor/lib/libjpegdhw.so|1c5f84ff29046c17a95d8c2925a14e21ca826643
 vendor/lib/libjpegdmahw.so|51467e6bc2d6019c69e864d21ed8ea7f5dd8c484
 vendor/lib/libjpegehw.so|68927e567faa92b232fc992000abad84112a05eb
 vendor/lib/libmm-qcamera.so|0f1c44136dd6df7f6878d1c29351b9f7a58d59b5
-vendor/lib/libmm-omxcore.so|1707521fd105b63e79a9e1ea54f2923294c2cfc8
 vendor/lib/libmmcamera2_c2d_module.so|14fb9fea0e730f509c8b59a64b55c6a3313966bf
 vendor/lib/libmmcamera2_cpp_module.so|84f63d3cf0b3f6f30c1b948928ab97310e98ca0f
 vendor/lib/libmmcamera2_frame_algorithm.so|4fefca8b8dbc63992d2b3a648d4d97c4c2a7c506
