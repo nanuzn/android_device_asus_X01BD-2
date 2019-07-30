@@ -162,9 +162,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.performance.tuning=1 \
     video.accelerate.hw=1
 
-# Maintainer
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.havoc.maintainer=SonalSingh
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
     media.aac_51_output_enabled=true \

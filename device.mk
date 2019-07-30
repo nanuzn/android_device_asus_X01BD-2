@@ -302,10 +302,6 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt Apps
 PRODUCT_PACKAGES += \
-   Dialer \
-   Messaging \
-   Contacts \
-   DeskClock \
    Calendar \
    ExactCalculator \
    Eleven \
