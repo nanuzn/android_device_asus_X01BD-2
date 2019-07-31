@@ -1,3 +1,5 @@
+
+
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2015 The CyanogenMod Project
@@ -50,7 +52,7 @@
             android:persistent="false"
             android:title="@string/touchscreen_gesture_haptic_feedback"
             android:summary="@string/touchscreen_gesture_haptic_feedback_summary"
-      	    android:icon="@drawable/ic_haptic" />
+      	    android:icon="@drawable/ic_vibrate" />
 
     </PreferenceCategory>
 
