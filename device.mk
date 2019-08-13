@@ -300,6 +300,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
 
+# Prebuilt Apps
+PRODUCT_PACKAGES += \
+   Recorder
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.0-impl \
