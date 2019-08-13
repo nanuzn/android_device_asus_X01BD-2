@@ -300,6 +300,17 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
 
+# Prebuilt Apps
+PRODUCT_PACKAGES += \
+   Dialer \
+   Messaging \
+   Contacts \
+   DeskClock \
+   Calendar \
+   ExactCalculator \
+   Eleven \
+   Recorder
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.0-impl \
