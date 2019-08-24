@@ -292,6 +292,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
 
+# Prebuilt Apps
+PRODUCT_PACKAGES += \
+    Gallery2
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.0-impl \
