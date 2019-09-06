@@ -20,16 +20,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
 # Inherit some common Havoc-OS stuff
-$(call inherit-product, vendor/havoc/config/common.mk)
-
-# Official Havoc-OS
-export export HAVOC_BUILD_TYPE=Official
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 # Inherit from X01BD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := havoc_X01BD
+PRODUCT_NAME := arrow_X01BD
 PRODUCT_DEVICE := X01BD
 PRODUCT_BRAND := asus
 PRODUCT_MODEL := Zenfone Max Pro M2
